@@ -4,6 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@types/react': npm:types-react@rc
+  '@types/react-dom': npm:types-react-dom@rc
+
 importers:
 
   .:
@@ -596,7 +600,7 @@ packages:
   '@mdx-js/react@3.0.1':
     resolution: {integrity: sha512-9ZrPIU4MGf6et1m1ov3zKf+q9+deetI51zprKB1D/z3NOb+rUxxtEl3mCjW5wTGh6VhRdwPueh1oRzi6ezkA8A==}
     peerDependencies:
-      '@types/react': '>=16'
+      '@types/react': npm:types-react@rc
       react: '>=16'
 
   '@mswjs/interceptors@0.36.10':
@@ -986,8 +990,8 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       '@testing-library/dom': ^10.0.0
-      '@types/react': ^18.0.0
-      '@types/react-dom': ^18.0.0
+      '@types/react': npm:types-react@rc
+      '@types/react-dom': npm:types-react-dom@rc
       react: ^18.0.0
       react-dom: ^18.0.0
     peerDependenciesMeta:
