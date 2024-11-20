@@ -6,6 +6,10 @@
 
 This demo is an [example taken from vite-plugin-storybook-nextjs](https://github.com/storybookjs/vite-plugin-storybook-nextjs/tree/main/example).
 
+### Next.js Version
+
+The major version of Next.js currently in use is v15.
+
 ## Setup
 
 ```
