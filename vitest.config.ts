@@ -11,6 +11,7 @@ export default defineConfig({
   ],
   test: {
     name: "storybook",
+    environment: "jsdom",
     browser: {
       enabled: true,
       headless: true,
